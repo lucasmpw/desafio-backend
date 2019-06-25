@@ -39,6 +39,7 @@ Retornar uma lista de produtos no seguinte formato JSON
 ```json
 [
   {
+    "product_id":"d2eda25e-9757-11e9-bc42-526af7764f64",
     "artist":"Pink Floyd",
     "year":1973,
     "album":"Dask Side of The Moon",
@@ -48,6 +49,7 @@ Retornar uma lista de produtos no seguinte formato JSON
     "date":"26/11/2018"
   },
   {
+    "product_id":"7e655c6e-e8e5-4349-8348-bbbbbbbbbbbb",
     "artist":"U2",
     "year":1993,
     "album":"Zooropa",
@@ -57,6 +59,7 @@ Retornar uma lista de produtos no seguinte formato JSON
     "date":"01/02/2019"
   },
   {
+    "product_id":"7e655c6e-e8e5-4349-8348-cccccccccccc",
     "artist":"The Beatles",
     "year":1969,
     "album":"Abbey Road",
@@ -72,6 +75,7 @@ Retornar uma lista de produtos no seguinte formato JSON
   
 | Campo       | Tipo    |
 |-------------|---------|
+| product_id  | String  |
 | artist      | String  |
 | year        | Integer |
 | album       | String  |
@@ -80,6 +84,26 @@ Retornar uma lista de produtos no seguinte formato JSON
 | thumb       | String  |
 | date        | String  |
 
+### POST `/store/api/v1/add_to_cart`
+Adicionar item ao carrinho.
+```json
+{
+   "cart_id":"c5b6c552-9757-11e9-bc42-526af7764f64",
+   "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
+   "product_id":"d2eda25e-9757-11e9-bc42-526af7764f64",
+   "date":"26/11/2018"
+   "time":"18:33:12"
+}
+```
++ Cart
+  
+| Campo       | Tipo    |
+|-------------|---------|
+| cart_id     | String  |
+| client_id   | Integer |
+| product_id  | String  |
+| date        | String  |
+| time        | String  |
 
 Após o cliente incluir todos itens no carrinho, a compra será finalizada, invocando o método `buy` na sua API.
 
