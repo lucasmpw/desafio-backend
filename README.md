@@ -14,8 +14,9 @@ Esse método deve receber um item novo e persistir no banco de dados.
 ```json
 {
    "artist":"Pink Floyd",
+   "year":1973,
    "album":"Dask Side of The Moon",
-   "price":19,
+   "price":250,
    "store":"Minha Loja de Discos",
    "thumb":"https://images-na.ssl-images-amazon.com/images/I/61R7gJadP7L._SX355_.jpg",
    "date":"26/11/2018"
