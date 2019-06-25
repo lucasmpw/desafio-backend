@@ -21,6 +21,17 @@ Esse método deve receber um item novo e persistir no banco de dados.
    "date":"26/11/2018"
 }
 ```
++ Product
+  
+| Campo       | Tipo    |
+|-------------|---------|
+| artist      | String  |
+| year        | Integer |
+| album       | String  |
+| price       | Integer |
+| store       | String  |
+| thumb       | String  |
+| date        | String  |
 
 ### GET `/store/api/v1/products`
 Retornar uma lista de produtos no seguinte formato JSON
