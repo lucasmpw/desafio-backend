@@ -27,6 +27,7 @@ Esse método deve receber um item novo e persistir no banco de dados.
   
 | Campo       | Tipo    |
 |-------------|---------|
+| product_id  | String  |
 | artist      | String  |
 | year        | Integer |
 | album       | String  |
