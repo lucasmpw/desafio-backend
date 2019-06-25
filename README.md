@@ -97,7 +97,6 @@ Finalizar a compra.
       "card_holder_name":"John S",
    }
 }
-
 ```
 
 + Transaction
@@ -145,10 +144,10 @@ Esse método deve retornar todos as compras realizadas na API
       "date":"29/06/2019"
    }
 ]
+```
 
 + History
 
-```
 | Campo            | Tipo    |
 |------------------|---------|
 | card_number      | String  |
