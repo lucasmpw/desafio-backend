@@ -178,6 +178,6 @@ Chamada da API deve retornar todos as compras realizadas por um cliente específ
 
 ### Premissas
 - A solução deve ser escalável, preparada para receber um grande volume de requisições;
-- As APIs do serviço devem responder num tempo satisfatório, que não comprometa a experiência dos usuários, mesmo com um grande volume de dados;
+- Os endpoints do serviço devem responder num tempo satisfatório, que não comprometa a experiência dos usuários, mesmo com um grande volume de dados;
 - O desenvolvimento pode ser feito utilizando qualquer linguagem de programação e qualquer sistema de banco de dados, cabendo ao desenvolvedor escolher o que for melhor para a situação;
 - Serão avaliados a arquitetura, os padrões utilizados para o desenvolvimento, documentação, arquitetura da solução e a entrega no prazo;
