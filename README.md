@@ -91,7 +91,7 @@ Adicionar item ao carrinho.
 ```json
 {
    "cart_id":"c5b6c552-9757-11e9-bc42-526af7764f64",
-   "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
+   "client_id":"fac3591c-9785-11e9-bc42-526af7764f64",
    "product_id":"d2eda25e-9757-11e9-bc42-526af7764f64",
    "date":"26/11/2018"
    "time":"18:33:12"
@@ -113,7 +113,8 @@ Após o cliente incluir todos itens no carrinho, a compra será finalizada, invo
 Finalizar a compra.
 ```json
 {
-   "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
+   "client_id":"fac3591c-9785-11e9-bc42-526af7764f64",
+   "cart_id":"c5b6c552-9757-11e9-bc42-526af7764f64",
    "client_name":"John Snow",
    "value_to_pay":280,
    "credit_card":{
@@ -149,22 +150,22 @@ Esse método deve retornar todos as compras realizadas na API
 ```json
 [
    {
-      "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
-      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a8",
+      "client_id":"fac3591c-9785-11e9-bc42-526af7764f64",
+      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a1",
       "card_number":"**** **** **** 1234",
       "value":100,
       "date":"21/08/2018"
    },
    {
-      "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
-      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a8",
+      "client_id":"fac3591c-9785-11e9-bc42-526af7764f64",
+      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a2",
       "card_number":"**** **** **** 1234",
       "value":280,
       "date":"20/02/2019"
    },
    {
-      "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
-      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a8",
+      "client_id":"fac3591c-9785-11e9-bc42-526af7764f64",
+      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206aa",
       "card_number":"**** **** **** 1234",
       "value":500,
       "date":"29/06/2019"
@@ -186,15 +187,15 @@ Chamada da API deve retornar todos as compras realizadas por um cliente específ
 ```json
 [
    {
-      "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
-      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a8",
+      "client_id":"fac3591c-9785-11e9-bc42-526af7764f64",
+      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a1",
       "value":180,
       "date":"19/01/2019",
       "card_number":"**** **** **** 1234"
    },
    {
-      "client_id":"7e655c6e-e8e5-4349-8348-e51e0ff3072e",
-      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a8",
+      "client_id":"fac3591c-9785-11e9-bc42-526af7764f64",
+      "order_id":"569c30dc-6bdb-407a-b18b-3794f9b206a2",
       "value":100,
       "date":"20/06/2019",
       "card_number":"**** **** **** 1234"
