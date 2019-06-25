@@ -13,6 +13,7 @@ Escolha a tecnologia que achar melhor, contudo, deverá informar quais tecnologi
 Esse método deve receber um item novo e persistir no banco de dados.
 ```json
 {
+   "product_id":"d2eda25e-9757-11e9-bc42-526af7764f64",
    "artist":"Pink Floyd",
    "year":1973,
    "album":"Dask Side of The Moon",
@@ -49,7 +50,7 @@ Retornar uma lista de produtos no seguinte formato JSON
     "date":"26/11/2018"
   },
   {
-    "product_id":"7e655c6e-e8e5-4349-8348-bbbbbbbbbbbb",
+    "product_id":"4a149a9a-9758-11e9-bc42-526af7764f64",
     "artist":"U2",
     "year":1993,
     "album":"Zooropa",
@@ -59,7 +60,7 @@ Retornar uma lista de produtos no seguinte formato JSON
     "date":"01/02/2019"
   },
   {
-    "product_id":"7e655c6e-e8e5-4349-8348-cccccccccccc",
+    "product_id":"53f2b33a-9758-11e9-bc42-526af7764f64",
     "artist":"The Beatles",
     "year":1969,
     "album":"Abbey Road",
